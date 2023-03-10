@@ -25,10 +25,8 @@ The implementation of the adaptive sampling acquisition in python consists if th
 
 
    A sampler block  which takes  as input a given duration and the sampling rate to handle the data acquisition  from the microcontroller for the given window of time.
-   A spectrum analyzer block which takes a signal, an analyses  window size and the sampling rate to return the maximum frequency detected in the spectrum of the signal.
-       
-       
-       
+   
+   A spectrum analyzer block which takes a signal, an analyses  window size and the sampling rate to return the maximum frequency detected in the spectrum of the signal.  
  An adaptive sampling evaluation block which takes as input the current detected maximum frequency from a given window and the current sampling rate, an algorithm confidence parameters to handle the evaluation of the spectrum and the metric used to output the next sampling rate for the next window of time which is sent to the sampler.
           
 
